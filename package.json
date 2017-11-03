@@ -22,13 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doradomiguel35/signup_storage.git"
+    "url": "git+https://github.com/joycrgdr/stqafinal.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/doradomiguel35/signup_storage/issues"
+    "url": "https://github.com/joycrgdr/stqafinal.git/issues"
   },
-  "homepage": "https://github.com/doradomiguel35/signup_storage#readme"
+  "homepage": "https://github.com/joycrgdr/stqafinal.git#readme"
 }

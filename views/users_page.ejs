@@ -30,14 +30,13 @@
 		</div> -->
 
 		<div class="container">
-			<h1 class="title" id="user">Active Users</h1>
+			<h1 class="title" id="user">Students List</h1>
 			<div class="form-group ">
 						<a href="/" type="button" id="logout" class="btn btn-primary btn-lg btn-block login-button">Log Out</a>
 				</div>
 			<table class="table table-inverse">
 			  <thead>
 			    <tr>
-			      <th>Profile Picture</th>
 			      <th>Name</th>
 			      <th>Email Address</th>
 			      <th>Username</th>
@@ -46,7 +45,6 @@
 			  <tbody class="accounts">
 			    <% for(var i=0; i<accounts.length; i++) {%>
 			    <tr class="accounts">
-			      <th><img src="http://lorempixel.com/100/100/people/"/></th>
 			      <td><a href="/mark"><%= accounts[i].name %></a></td>
 			      <td><%= accounts[i].email %></td>
 			      <td><%= accounts[i].username%></td>
